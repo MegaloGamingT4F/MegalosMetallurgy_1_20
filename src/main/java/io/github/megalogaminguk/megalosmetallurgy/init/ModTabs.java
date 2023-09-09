@@ -5,16 +5,17 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
+import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 
 public class ModTabs {
-    public static final DeferredRegister<CreativeModeTab> TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MegalosMetallurgy.MODID);
+    public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
+            DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MegalosMetallurgy.MOD_ID);
 
-    public static final RegistryObject<CreativeModeTab> METALLURGY = TABS.register("metallurgy_tab",
-            ()-> CreativeModeTab.builder()
+    public static final RegistryObject<CreativeModeTab> METALLURGY_TAB = CREATIVE_MODE_TABS.register("metallurgy_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.ALUMINIUM_BLOCK.get()))
                     .title(Component.translatable("itemGroup.metallurgy_tab"))
-                    .icon(() -> new ItemStack(ModBlocks.ALUMINIUM_ORE.get()))
                     .displayItems((displayParams, output) -> {
                         output.accept(ModBlocks.ALUMINIUM_ORE.get());
                         output.accept(ModBlocks.DEEPSLATE_ANTIMONY_ORE.get());
@@ -371,16 +372,75 @@ public class ModTabs {
                         output.accept(ModItems.RAW_YTTRIUM.get());
                         output.accept(ModItems.RAW_ZINC.get());
                         output.accept(ModItems.RAW_ZIRCONIUM.get());
+                        output.accept(ModItems.ALUMINIUM_HELMET.get());
+                        output.accept(ModItems.ALUMINIUM_CHESTPLATE.get());
+                        output.accept(ModItems.ALUMINIUM_LEGGINGS.get());
+                        output.accept(ModItems.ALUMINIUM_BOOTS.get());
+
+                        output.accept(ModItems.SILVER_HELMET.get());
+                        output.accept(ModItems.SILVER_CHESTPLATE.get());
+                        output.accept(ModItems.SILVER_LEGGINGS.get());
+                        output.accept(ModItems.SILVER_BOOTS.get());
+
+                        output.accept(ModItems.TITANIUM_HELMET.get());
+                        output.accept(ModItems.TITANIUM_CHESTPLATE.get());
+                        output.accept(ModItems.TITANIUM_LEGGINGS.get());
+                        output.accept(ModItems.TITANIUM_BOOTS.get());
+
+                        //Tools
                         output.accept(ModItems.ALUMINIUM_AXE.get());
                         output.accept(ModItems.ALUMINIUM_HOE.get());
                         output.accept(ModItems.ALUMINIUM_PICKAXE.get());
                         output.accept(ModItems.ALUMINIUM_SHOVEL.get());
                         output.accept(ModItems.ALUMINIUM_SWORD.get());
-                        output.accept(ModItems.ALUMINIUM_HELMET.get());
-                        output.accept(ModItems.ALUMINIUM_CHESTPLATE.get());
-                        output.accept(ModItems.ALUMINIUM_LEGGINGS.get());
-                        output.accept(ModItems.ALUMINIUM_BOOTS.get());
+
+                        output.accept(ModItems.SILVER_AXE.get());
+                        output.accept(ModItems.SILVER_HOE.get());
+                        output.accept(ModItems.SILVER_PICKAXE.get());
+                        output.accept(ModItems.SILVER_SHOVEL.get());
+                        output.accept(ModItems.SILVER_SWORD.get());
+
+                        output.accept(ModItems.TITANIUM_AXE.get());
+                        output.accept(ModItems.TITANIUM_HOE.get());
+                        output.accept(ModItems.TITANIUM_PICKAXE.get());
+                        output.accept(ModItems.TITANIUM_SHOVEL.get());
+                        output.accept(ModItems.TITANIUM_SWORD.get());
+
+                        //Parts
+                        output.accept(ModItems.ALUMINIUM_BLADE.get());
+                        output.accept(ModItems.ALUMINIUM_AXEHEAD.get());
+                        output.accept(ModItems.ALUMINIUM_SHOVELHEAD.get());
+                        output.accept(ModItems.ALUMINIUM_PICK.get());
+                        output.accept(ModItems.ALUMINIUM_POMMEL.get());
+                        output.accept(ModItems.ALUMINIUM_HILT.get());
+                        output.accept(ModItems.ALUMINIUM_PLATE.get());
+
+                        output.accept(ModItems.SILVER_BLADE.get());
+                        output.accept(ModItems.SILVER_AXEHEAD.get());
+                        output.accept(ModItems.SILVER_SHOVELHEAD.get());
+                        output.accept(ModItems.SILVER_PICK.get());
+                        output.accept(ModItems.SILVER_POMMEL.get());
+                        output.accept(ModItems.SILVER_HILT.get());
+                        output.accept(ModItems.SILVER_PLATE.get());
+
+                        output.accept(ModItems.TITANIUM_BLADE.get());
+                        output.accept(ModItems.TITANIUM_AXEHEAD.get());
+                        output.accept(ModItems.TITANIUM_SHOVELHEAD.get());
+                        output.accept(ModItems.TITANIUM_PICK.get());
+                        output.accept(ModItems.TITANIUM_POMMEL.get());
+                        output.accept(ModItems.TITANIUM_HILT.get());
+                        output.accept(ModItems.TITANIUM_PLATE.get());
+
+                        output.accept(ModItems.LEATHER_GRIP.get());
+                        output.accept(ModItems.LEATHER_STRAP.get());
+                        output.accept(ModItems.FABRIC_GRIP.get());
+                        output.accept(ModItems.FABRIC_STRAP.get());
+                        output.accept(ModItems.ARMOUR_PADDING.get());
                     })
-                    .build()
-    );
+                    .build());
+
+    public static void register(IEventBus eventBus){
+        CREATIVE_MODE_TABS.register(eventBus);
+
+    }
 }

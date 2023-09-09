@@ -208,6 +208,35 @@
   "item.megalosmetallurgy.raw_zinc":"Raw Zinc",
   "item.megalosmetallurgy.raw_zirconium":"Raw Zirconium",
 
+  "item.megalosmetallurgy.leather_grip": "Leather-Wrapped Grip",
+  "item.megalosmetallurgy.fabric_grip": "Fabric-Wrapped Grip",
+  "item.megalosmetallurgy.armour_padding": "Armour Padding",
+
+  "item.megalosmetallurgy.aluminium_blade":"Aluminium Blade",
+  "item.megalosmetallurgy.aluminium_axehead":"Aluminium Axe Head",
+  "item.megalosmetallurgy.aluminium_shovelhead":"Aluminium Shovel Head",
+  "item.megalosmetallurgy.aluminium_pick":"Aluminium Pick",
+  "item.megalosmetallurgy.aluminium_pommel":"Aluminium Pommel",
+  "item.megalosmetallurgy.aluminium_plate":"Aluminium Armour Plate",
+  "item.megalosmetallurgy.aluminium_hilt":"Aluminium-Pommeled Hilt",
+
+  "item.megalosmetallurgy.silver_blade":"Silver Blade",
+  "item.megalosmetallurgy.silver_axehead":"Silver Axe Head",
+  "item.megalosmetallurgy.silver_shovelhead":"Sliver Shovel Head",
+  "item.megalosmetallurgy.silver_pick":"Silver Pick",
+  "item.megalosmetallurgy.silver_pommel":"Silver Pommel",
+  "item.megalosmetallurgy.silver_plate":"Silver Armour Plate",
+  "item.megalosmetallurgy.silver_hilt":"Silver-Pommeled Hilt",
+
+  "item.megalosmetallurgy.titanium_blade":"Titanium Blade",
+  "item.megalosmetallurgy.titanium_axehead":"Titanium Axe Head",
+  "item.megalosmetallurgy.titanium_shovelhead":"Titanium Shovel Head",
+  "item.megalosmetallurgy.titanium_pick":"Titanium Pick",
+  "item.megalosmetallurgy.titanium_pommel":"Titanium Pommel",
+  "item.megalosmetallurgy.titanium_guard":"Titanium Rain-Guard",
+  "item.megalosmetallurgy.titanium_plate":"Titanium Armour Plate",
+  "item.megalosmetallurgy.titanium_hilt":"Titanium-Pommeled Hilt",
+
   "item.megalosmetallurgy.aluminium_axe": "Aluminium Axe",
   "item.megalosmetallurgy.aluminium_hoe": "Aluminium Hoe",
   "item.megalosmetallurgy.aluminium_pickaxe": "Aluminium Pickaxe",
@@ -438,8 +467,6 @@
   "block.megalosmetallurgy.raw_yttrium_block": "Raw Yttrium Block",
   "block.megalosmetallurgy.raw_zinc_block": "Raw Zinc Block",
   "block.megalosmetallurgy.raw_zirconium_block": "Raw Zirconium Block",
-
-  "block.megalosmetallurgy.metallurgic_furnace": "Metallurgic Furnace",
 
   "itemGroup.metallurgy_tab": "Megalo's Metallurgy"
 }

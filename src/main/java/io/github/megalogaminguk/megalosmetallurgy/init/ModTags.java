@@ -12,6 +12,6 @@ public class ModTags {
     public static final TagKey<Block> NEEDS_TITANIUM_TOOL = tag("needs_titanium_tool");
 
     private static TagKey<Block> tag(String name){
-        return BlockTags.create(new ResourceLocation(MegalosMetallurgy.MODID, name));
+        return BlockTags.create(new ResourceLocation(MegalosMetallurgy.MOD_ID, name));
     }
 }
