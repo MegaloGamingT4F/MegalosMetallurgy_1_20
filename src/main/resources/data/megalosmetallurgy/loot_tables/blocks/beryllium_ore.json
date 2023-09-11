@@ -24,7 +24,7 @@
                   }
                 }
               ],
-              "name": "megalosmetallurgy:aluminium_ore"
+              "name": "megalosmetallurgy:beryllium_ore"
             },
             {
               "type": "minecraft:item",
@@ -47,7 +47,7 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "megalosmetallurgy:raw_aluminium"
+              "name": "megalosmetallurgy:raw_beryllium"
             }
           ]
         }
@@ -55,5 +55,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "megalosmetallurgy:blocks/aluminium_ore"
+  "random_sequence": "megalosmetallurgy:blocks/beryllium_ore"
 }

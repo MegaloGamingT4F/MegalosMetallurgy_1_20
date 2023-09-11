@@ -321,7 +321,7 @@
   "block.megalosmetallurgy.lead_ore": "Cerrusite Ore",
   "block.megalosmetallurgy.lead_block": "Lead Block",
 
-  "block.megalosmetallurgy.end_lithium_ore": "Lepidolite Ore",
+  "block.megalosmetallurgy.end_stone_lithium_ore": "Lepidolite Ore",
   "block.megalosmetallurgy.lithium_block": "Lithium Block",
 
   "block.megalosmetallurgy.magnesium_ore": "Serpentite Ore",
@@ -360,13 +360,13 @@
   "block.megalosmetallurgy.netherrack_rhodium_ore": "Rhodplumsite Ore",
   "block.megalosmetallurgy.rhodium_block": "Rhodium Block",
 
-  "block.megalosmetallurgy.end_rubidium_ore": "Pink Pollucite Ore",
+  "block.megalosmetallurgy.end_stone_rubidium_ore": "Pink Pollucite Ore",
   "block.megalosmetallurgy.rubidium_block": "Rubidium Block",
 
   "block.megalosmetallurgy.deepslate_ruthenium_ore": "Pentlandite Ore",
   "block.megalosmetallurgy.ruthenium_block": "Ruthenium Block",
 
-  "block.megalosmetallurgy.end_scandium_ore": "Thortveitite Ore",
+  "block.megalosmetallurgy.end_stone_scandium_ore": "Thortveitite Ore",
   "block.megalosmetallurgy.scandium_block": "Scandium Block",
 
   "block.megalosmetallurgy.netherrack_selenium_ore": "Berzelianite Ore",
@@ -381,10 +381,10 @@
   "block.megalosmetallurgy.sodium_ore": "Halite Ore",
   "block.megalosmetallurgy.sodium_block": "Sodium Block",
 
-  "block.megalosmetallurgy.end_strontium_ore": "Celestine Ore",
+  "block.megalosmetallurgy.end_stone_strontium_ore": "Celestine Ore",
   "block.megalosmetallurgy.strontium_block": "Strontium Block",
 
-  "block.megalosmetallurgy.end_tantalum_ore": "Tantalite Ore",
+  "block.megalosmetallurgy.end_stone_tantalum_ore": "Tantalite Ore",
   "block.megalosmetallurgy.tantalum_block": "Tantalum Block",
 
   "block.megalosmetallurgy.netherrack_technetium_ore": "Ekanite Ore",
@@ -405,10 +405,10 @@
   "block.megalosmetallurgy.deepslate_tungsten_ore": "Wolframite Ore",
   "block.megalosmetallurgy.tungsten_block": "Tungsten Block",
 
-  "block.megalosmetallurgy.end_vanadium_ore": "Carnotite Ore",
+  "block.megalosmetallurgy.end_stone_vanadium_ore": "Carnotite Ore",
   "block.megalosmetallurgy.vanadium_block": "Vanadium Block",
 
-  "block.megalosmetallurgy.end_yttrium_ore": "Xenotite Ore",
+  "block.megalosmetallurgy.end_stone_yttrium_ore": "Xenotite Ore",
   "block.megalosmetallurgy.yttrium_block": "Yttrium Block",
 
   "block.megalosmetallurgy.zinc_ore": "Smithsonite Ore",
