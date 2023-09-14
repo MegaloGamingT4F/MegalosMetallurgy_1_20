@@ -1,7 +1,7 @@
 package io.github.megalogaminguk.megalosmetallurgy.init;
 
 import io.github.megalogaminguk.megalosmetallurgy.MegalosMetallurgy;
-import io.github.megalogaminguk.megalosmetallurgy.init.tiers.ModTiers;
+import io.github.megalogaminguk.megalosmetallurgy.init.tiers.ModToolTiers;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -483,7 +483,7 @@ public static final RegistryObject<Item> RAW_ALUMINIUM = ITEMS.register("raw_alu
     public static final RegistryObject<Item> TITANIUM_HILT = ITEMS.register("titanium_hilt",
             () -> new Item(new Item.Properties()));
 
-//ItemBlocks
+//Block Items - Ore
     public static final RegistryObject<BlockItem> ALUMINIUM_ORE_ITEM = ITEMS.register("aluminium_ore",() -> new BlockItem(ModBlocks.ALUMINIUM_ORE.get(), new Item.Properties().rarity(Rarity.COMMON)));
     public static final RegistryObject<BlockItem> DEEPSLATE_ANTIMONY_ORE_ITEM = ITEMS.register("deepslate_antimony_ore",() -> new BlockItem(ModBlocks.DEEPSLATE_ANTIMONY_ORE.get(), new Item.Properties().rarity(Rarity.COMMON)));
     public static final RegistryObject<BlockItem> NETHERRACK_ARSENIC_ORE_ITEM = ITEMS.register("netherrack_arsenic_ore",() -> new BlockItem(ModBlocks.NETHERRACK_ARSENIC_ORE.get(), new Item.Properties().rarity(Rarity.COMMON)));
@@ -535,7 +535,7 @@ public static final RegistryObject<Item> RAW_ALUMINIUM = ITEMS.register("raw_alu
     public static final RegistryObject<BlockItem> ZINC_ORE_ITEM = ITEMS.register("zinc_ore",() -> new BlockItem(ModBlocks.ZINC_ORE.get(), new Item.Properties().rarity(Rarity.COMMON)));
     public static final RegistryObject<BlockItem> ZIRCONIUM_ORE_ITEM = ITEMS.register("zirconium_ore",() -> new BlockItem(ModBlocks.ZIRCONIUM_ORE.get(), new Item.Properties().rarity(Rarity.COMMON)));
 
-    //ItemBlocks - Blocks
+    //Block Item - Blocks
     public static final RegistryObject<BlockItem> ALUMINIUM_BLOCK_ITEM = ITEMS.register("aluminium_block",() -> new BlockItem(ModBlocks.ALUMINIUM_BLOCK.get(), new Item.Properties().rarity(Rarity.COMMON)));
     public static final RegistryObject<BlockItem> ANTIMONY_BLOCK_ITEM = ITEMS.register("antimony_block",() -> new BlockItem(ModBlocks.ANTIMONY_BLOCK.get(), new Item.Properties().rarity(Rarity.COMMON)));
     public static final RegistryObject<BlockItem> ARSENIC_BLOCK_ITEM = ITEMS.register("arsenic_block",() -> new BlockItem(ModBlocks.ARSENIC_BLOCK.get(), new Item.Properties().rarity(Rarity.COMMON)));
@@ -587,7 +587,7 @@ public static final RegistryObject<Item> RAW_ALUMINIUM = ITEMS.register("raw_alu
     public static final RegistryObject<BlockItem> ZINC_BLOCK_ITEM = ITEMS.register("zinc_block",() -> new BlockItem(ModBlocks.ZINC_BLOCK.get(), new Item.Properties().rarity(Rarity.COMMON)));
     public static final RegistryObject<BlockItem> ZIRCONIUM_BLOCK_ITEM = ITEMS.register("zirconium_block",() -> new BlockItem(ModBlocks.ZIRCONIUM_BLOCK.get(), new Item.Properties().rarity(Rarity.COMMON)));
 
-    //BlockItem - Raw
+    //Block Item - Raw
     public static final RegistryObject<BlockItem> RAW_ALUMINIUM_BLOCK_ITEM = ITEMS.register("raw_aluminium_block",() -> new BlockItem(ModBlocks.RAW_ALUMINIUM_BLOCK.get(), new Item.Properties().rarity(Rarity.COMMON)));
     public static final RegistryObject<BlockItem> RAW_ANTIMONY_BLOCK_ITEM = ITEMS.register("raw_antimony_block",() -> new BlockItem(ModBlocks.RAW_ANTIMONY_BLOCK.get(), new Item.Properties().rarity(Rarity.COMMON)));
     public static final RegistryObject<BlockItem> RAW_ARSENIC_BLOCK_ITEM = ITEMS.register("raw_arsenic_block",() -> new BlockItem(ModBlocks.RAW_ARSENIC_BLOCK.get(), new Item.Properties().rarity(Rarity.COMMON)));
@@ -638,44 +638,58 @@ public static final RegistryObject<Item> RAW_ALUMINIUM = ITEMS.register("raw_alu
     public static final RegistryObject<BlockItem> RAW_YTTRIUM_BLOCK_ITEM = ITEMS.register("raw_yttrium_block",() -> new BlockItem(ModBlocks.RAW_YTTRIUM_BLOCK.get(), new Item.Properties().rarity(Rarity.COMMON)));
     public static final RegistryObject<BlockItem> RAW_ZINC_BLOCK_ITEM = ITEMS.register("raw_zinc_block",() -> new BlockItem(ModBlocks.RAW_ZINC_BLOCK.get(), new Item.Properties().rarity(Rarity.COMMON)));
     public static final RegistryObject<BlockItem> RAW_ZIRCONIUM_BLOCK_ITEM = ITEMS.register("raw_zirconium_block",() -> new BlockItem(ModBlocks.RAW_ZIRCONIUM_BLOCK.get(), new Item.Properties().rarity(Rarity.COMMON)));
-    //Aluminium Tools
-    public static final RegistryObject<SwordItem> ALUMINIUM_SWORD = ITEMS.register("aluminium_sword", () -> new SwordItem(ModTiers.ALUMINIUM,7,2.5f,new Item.Properties()));
-    public static final RegistryObject<PickaxeItem> ALUMINIUM_PICKAXE = ITEMS.register("aluminium_pickaxe", () -> new PickaxeItem(ModTiers.ALUMINIUM,7,2.5f,new Item.Properties()));
-    public static final RegistryObject<ShovelItem> ALUMINIUM_SHOVEL = ITEMS.register("aluminium_shovel", () -> new ShovelItem(ModTiers.ALUMINIUM,7,2.5f,new Item.Properties()));
-    public static final RegistryObject<AxeItem> ALUMINIUM_AXE = ITEMS.register("aluminium_axe", () -> new AxeItem(ModTiers.ALUMINIUM,7,2.5f,new Item.Properties()));
-    public static final RegistryObject<HoeItem> ALUMINIUM_HOE = ITEMS.register("aluminium_hoe", () -> new HoeItem(ModTiers.ALUMINIUM,7,2.5f,new Item.Properties()));
+//Tools
+    // Aluminium Tools
+    public static final RegistryObject<SwordItem> ALUMINIUM_SWORD = ITEMS.register("aluminium_sword", () -> new SwordItem(ModToolTiers.ALUMINIUM,7,2.5f,new Item.Properties()));
+    public static final RegistryObject<PickaxeItem> ALUMINIUM_PICKAXE = ITEMS.register("aluminium_pickaxe", () -> new PickaxeItem(ModToolTiers.ALUMINIUM,7,2.5f,new Item.Properties()));
+    public static final RegistryObject<ShovelItem> ALUMINIUM_SHOVEL = ITEMS.register("aluminium_shovel", () -> new ShovelItem(ModToolTiers.ALUMINIUM,7,2.5f,new Item.Properties()));
+    public static final RegistryObject<AxeItem> ALUMINIUM_AXE = ITEMS.register("aluminium_axe", () -> new AxeItem(ModToolTiers.ALUMINIUM,7,2.5f,new Item.Properties()));
+    public static final RegistryObject<HoeItem> ALUMINIUM_HOE = ITEMS.register("aluminium_hoe", () -> new HoeItem(ModToolTiers.ALUMINIUM,7,2.5f,new Item.Properties()));
 
     //Titanium Tools
-    public static final RegistryObject<SwordItem> TITANIUM_SWORD = ITEMS.register("titanium_sword", () -> new SwordItem(ModTiers.TITANIUM,7,2.5f,new Item.Properties()));
-    public static final RegistryObject<PickaxeItem> TITANIUM_PICKAXE = ITEMS.register("titanium_pickaxe", () -> new PickaxeItem(ModTiers.TITANIUM,7,2.5f,new Item.Properties()));
-    public static final RegistryObject<ShovelItem> TITANIUM_SHOVEL = ITEMS.register("titanium_shovel", () -> new ShovelItem(ModTiers.TITANIUM,7,2.5f,new Item.Properties()));
-    public static final RegistryObject<AxeItem> TITANIUM_AXE = ITEMS.register("titanium_axe", () -> new AxeItem(ModTiers.TITANIUM,7,2.5f,new Item.Properties()));
-    public static final RegistryObject<HoeItem> TITANIUM_HOE = ITEMS.register("titanium_hoe", () -> new HoeItem(ModTiers.TITANIUM,7,2.5f,new Item.Properties()));
+    public static final RegistryObject<SwordItem> TITANIUM_SWORD = ITEMS.register("titanium_sword", () -> new SwordItem(ModToolTiers.TITANIUM,7,2.5f,new Item.Properties()));
+    public static final RegistryObject<PickaxeItem> TITANIUM_PICKAXE = ITEMS.register("titanium_pickaxe", () -> new PickaxeItem(ModToolTiers.TITANIUM,7,2.5f,new Item.Properties()));
+    public static final RegistryObject<ShovelItem> TITANIUM_SHOVEL = ITEMS.register("titanium_shovel", () -> new ShovelItem(ModToolTiers.TITANIUM,7,2.5f,new Item.Properties()));
+    public static final RegistryObject<AxeItem> TITANIUM_AXE = ITEMS.register("titanium_axe", () -> new AxeItem(ModToolTiers.TITANIUM,7,2.5f,new Item.Properties()));
+    public static final RegistryObject<HoeItem> TITANIUM_HOE = ITEMS.register("titanium_hoe", () -> new HoeItem(ModToolTiers.TITANIUM,7,2.5f,new Item.Properties()));
 
     //Silver Tools
-    public static final RegistryObject<SwordItem> SILVER_SWORD = ITEMS.register("silver_sword", () -> new SwordItem(ModTiers.SILVER,7,2.5f,new Item.Properties()));
-    public static final RegistryObject<PickaxeItem> SILVER_PICKAXE = ITEMS.register("silver_pickaxe", () -> new PickaxeItem(ModTiers.SILVER,7,2.5f,new Item.Properties()));
-    public static final RegistryObject<ShovelItem> SILVER_SHOVEL = ITEMS.register("silver_shovel", () -> new ShovelItem(ModTiers.SILVER,7,2.5f,new Item.Properties()));
-    public static final RegistryObject<AxeItem> SILVER_AXE = ITEMS.register("silver_axe", () -> new AxeItem(ModTiers.SILVER,7,2.5f,new Item.Properties()));
-    public static final RegistryObject<HoeItem> SILVER_HOE = ITEMS.register("silver_hoe", () -> new HoeItem(ModTiers.SILVER,7,2.5f,new Item.Properties()));
+    public static final RegistryObject<SwordItem> SILVER_SWORD = ITEMS.register("silver_sword", () -> new SwordItem(ModToolTiers.SILVER,7,2.5f,new Item.Properties()));
+    public static final RegistryObject<PickaxeItem> SILVER_PICKAXE = ITEMS.register("silver_pickaxe", () -> new PickaxeItem(ModToolTiers.SILVER,7,2.5f,new Item.Properties()));
+    public static final RegistryObject<ShovelItem> SILVER_SHOVEL = ITEMS.register("silver_shovel", () -> new ShovelItem(ModToolTiers.SILVER,7,2.5f,new Item.Properties()));
+    public static final RegistryObject<AxeItem> SILVER_AXE = ITEMS.register("silver_axe", () -> new AxeItem(ModToolTiers.SILVER,7,2.5f,new Item.Properties()));
+    public static final RegistryObject<HoeItem> SILVER_HOE = ITEMS.register("silver_hoe", () -> new HoeItem(ModToolTiers.SILVER,7,2.5f,new Item.Properties()));
 
+//Armour
     //Aluminium Armour
-    public static final RegistryObject<ArmorItem> ALUMINIUM_HELMET = ITEMS.register("aluminium_helmet", () -> new ArmorItem(ArmourMaterialInit.ALUMINIUM, ArmorItem.Type.HELMET, new Item.Properties()));
-    public static final RegistryObject<ArmorItem> ALUMINIUM_CHESTPLATE = ITEMS.register("aluminium_chestplate", () -> new ArmorItem(ArmourMaterialInit.ALUMINIUM, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
-    public static final RegistryObject<ArmorItem> ALUMINIUM_LEGGINGS = ITEMS.register("aluminium_leggings", () -> new ArmorItem(ArmourMaterialInit.ALUMINIUM, ArmorItem.Type.LEGGINGS, new Item.Properties()));
-    public static final RegistryObject<ArmorItem> ALUMINIUM_BOOTS = ITEMS.register("aluminium_boots", () -> new ArmorItem(ArmourMaterialInit.ALUMINIUM, ArmorItem.Type.BOOTS, new Item.Properties()));
+    public static final RegistryObject<ArmorItem> ALUMINIUM_HELMET = ITEMS.register("aluminium_helmet",
+        () -> new ArmorItem(ModArmorMaterials.ALUMINIUM, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<ArmorItem> ALUMINIUM_CHESTPLATE = ITEMS.register("aluminium_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.ALUMINIUM, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+    public static final RegistryObject<ArmorItem> ALUMINIUM_LEGGINGS = ITEMS.register("aluminium_leggings",
+            () -> new ArmorItem(ModArmorMaterials.ALUMINIUM, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+    public static final RegistryObject<ArmorItem> ALUMINIUM_BOOTS = ITEMS.register("aluminium_boots",
+            () -> new ArmorItem(ModArmorMaterials.ALUMINIUM, ArmorItem.Type.BOOTS, new Item.Properties()));
 
     //Titanium Armour
-    public static final RegistryObject<ArmorItem> TITANIUM_HELMET = ITEMS.register("titanium_helmet", () -> new ArmorItem(ArmourMaterialInit.TITANIUM, ArmorItem.Type.HELMET, new Item.Properties()));
-    public static final RegistryObject<ArmorItem> TITANIUM_CHESTPLATE = ITEMS.register("titanium_chestplate", () -> new ArmorItem(ArmourMaterialInit.TITANIUM, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
-    public static final RegistryObject<ArmorItem> TITANIUM_LEGGINGS = ITEMS.register("titanium_leggings", () -> new ArmorItem(ArmourMaterialInit.TITANIUM, ArmorItem.Type.LEGGINGS, new Item.Properties()));
-    public static final RegistryObject<ArmorItem> TITANIUM_BOOTS = ITEMS.register("titanium_boots", () -> new ArmorItem(ArmourMaterialInit.TITANIUM, ArmorItem.Type.BOOTS, new Item.Properties()));
+    public static final RegistryObject<ArmorItem> TITANIUM_HELMET = ITEMS.register("titanium_helmet",
+            () -> new ArmorItem(ModArmorMaterials.TITANIUM, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<ArmorItem> TITANIUM_CHESTPLATE = ITEMS.register("titanium_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.TITANIUM, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+    public static final RegistryObject<ArmorItem> TITANIUM_LEGGINGS = ITEMS.register("titanium_leggings",
+        () -> new ArmorItem(ModArmorMaterials.TITANIUM, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+    public static final RegistryObject<ArmorItem> TITANIUM_BOOTS = ITEMS.register("titanium_boots",
+            () -> new ArmorItem(ModArmorMaterials.TITANIUM, ArmorItem.Type.BOOTS, new Item.Properties()));
 
     //Silver Armour
-    public static final RegistryObject<ArmorItem> SILVER_HELMET = ITEMS.register("silver_helmet", () -> new ArmorItem(ArmourMaterialInit.SILVER, ArmorItem.Type.HELMET, new Item.Properties()));
-    public static final RegistryObject<ArmorItem> SILVER_CHESTPLATE = ITEMS.register("silver_chestplate", () -> new ArmorItem(ArmourMaterialInit.SILVER, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
-    public static final RegistryObject<ArmorItem> SILVER_LEGGINGS = ITEMS.register("silver_leggings", () -> new ArmorItem(ArmourMaterialInit.SILVER, ArmorItem.Type.LEGGINGS, new Item.Properties()));
-    public static final RegistryObject<ArmorItem> SILVER_BOOTS = ITEMS.register("silver_boots", () -> new ArmorItem(ArmourMaterialInit.SILVER, ArmorItem.Type.BOOTS, new Item.Properties()));
+    public static final RegistryObject<ArmorItem> SILVER_HELMET = ITEMS.register("silver_helmet",
+            () -> new ArmorItem(ModArmorMaterials.SILVER, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<ArmorItem> SILVER_CHESTPLATE = ITEMS.register("silver_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.SILVER, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+    public static final RegistryObject<ArmorItem> SILVER_LEGGINGS = ITEMS.register("silver_leggings",
+            () -> new ArmorItem(ModArmorMaterials.SILVER, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+    public static final RegistryObject<ArmorItem> SILVER_BOOTS = ITEMS.register("silver_boots",
+            () -> new ArmorItem(ModArmorMaterials.SILVER, ArmorItem.Type.BOOTS, new Item.Properties()));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

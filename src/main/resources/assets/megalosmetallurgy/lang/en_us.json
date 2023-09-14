@@ -17,9 +17,9 @@
   "item.megalosmetallurgy.bismuth_dust": "Bismuth Dust",
   "item.megalosmetallurgy.bismuth_nugget": "Bismuth Nugget",
   "item.megalosmetallurgy.bismuth_ingot": "Bismuth Ingot",
-  "item.megalosmetallurgy.cadmium_dust": "Cadmium Dust",
-  "item.megalosmetallurgy.cadmium_nugget": "Cadmium Nugget",
-  "item.megalosmetallurgy.cadmium_ingot": "Cadmium Ingot",
+  "item.megalosmetallurgy.cadmium_dust": "Pipette of Cadmium",
+  "item.megalosmetallurgy.cadmium_nugget": "Test Tube of Cadmium",
+  "item.megalosmetallurgy.cadmium_ingot": "Phial of Cadmium",
   "item.megalosmetallurgy.calcium_dust": "Calcium Dust",
   "item.megalosmetallurgy.calcium_nugget": "Calcium Nugget",
   "item.megalosmetallurgy.calcium_ingot": "Calcium Ingot",
@@ -208,6 +208,8 @@
   "item.megalosmetallurgy.raw_zinc":"Raw Zinc",
   "item.megalosmetallurgy.raw_zirconium":"Raw Zirconium",
 
+  "item.megalosmetallurgy.leather_strap": "Leather Strap",
+  "item.megalosmetallurgy.fabric_strap": "Fabric Strap",
   "item.megalosmetallurgy.leather_grip": "Leather-Wrapped Grip",
   "item.megalosmetallurgy.fabric_grip": "Fabric-Wrapped Grip",
   "item.megalosmetallurgy.armour_padding": "Armour Padding",
@@ -468,5 +470,27 @@
   "block.megalosmetallurgy.raw_zinc_block": "Raw Zinc Block",
   "block.megalosmetallurgy.raw_zirconium_block": "Raw Zirconium Block",
 
-  "itemGroup.metallurgy_tab": "Megalo's Metallurgy"
+  "block.minecraft.iron_ore": "Pyrite Ore",
+  "block.minecraft.gold_ore": "Calaverite Ore",
+  "block.minecraft.copper_ore": "Malachite Ore",
+  "block.minecraft.lapis_ore": "Lazurite Ore",
+  "block.minecraft.diamond_ore": "Kimberlite Ore",
+  "block.minecraft.coal_ore": "Anthracite Ore",
+  "block.minecraft.emerald_ore": "Iherzolite Ore",
+  "block.minecraft.redstone_ore": "Rouge Quartzite Ore",
+
+  "block.minecraft.deepslate_iron_ore": "Deepslate Pyrite Ore",
+  "block.minecraft.deepslate_gold_ore": "Deepslate Calaverite Ore",
+  "block.minecraft.deepslate_copper_ore": "Deepslate Malachite Ore",
+  "block.minecraft.deepslate_lapis_ore": "Deepslate Lazurite Ore",
+  "block.minecraft.deepslate_diamond_ore": "Deepslate Kimberlite Ore",
+  "block.minecraft.deepslate_coal_ore": "Deepslate Anthracite Ore",
+  "block.minecraft.deepslate_emerald_ore": "Deepslate Iherzolite Ore",
+  "block.minecraft.deepslate_redstone_ore": "Deepslate Rouge Quartzite Ore",
+
+  "block.minecraft.nether_gold_ore": "Nether Calaverite Ore",
+  "block.minecraft.nether_quartz_ore": "Nether Quartzite Ore",
+
+  "itemGroup.metallurgy_tab": "Megalo's Metallurgy",
+  "itemGroup.hoplology_tab": "Megalo's Hoplology"
 }

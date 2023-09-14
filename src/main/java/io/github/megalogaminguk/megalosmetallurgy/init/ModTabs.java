@@ -372,6 +372,13 @@ public class ModTabs {
                         output.accept(ModItems.RAW_YTTRIUM.get());
                         output.accept(ModItems.RAW_ZINC.get());
                         output.accept(ModItems.RAW_ZIRCONIUM.get());
+                        })
+                    .build());
+
+    public static final RegistryObject<CreativeModeTab> HOPLOLOGY_TAB = CREATIVE_MODE_TABS.register("hoplology_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.ALUMINIUM_SWORD.get()))
+                    .title(Component.translatable("itemGroup.hoplology_tab"))
+                    .displayItems((displayParams, output) -> {
                         output.accept(ModItems.ALUMINIUM_HELMET.get());
                         output.accept(ModItems.ALUMINIUM_CHESTPLATE.get());
                         output.accept(ModItems.ALUMINIUM_LEGGINGS.get());
@@ -440,6 +447,7 @@ public class ModTabs {
                     .build());
 
     public static void register(IEventBus eventBus){
+
         CREATIVE_MODE_TABS.register(eventBus);
 
     }

@@ -81,6 +81,7 @@ public class ModBlocks {
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_IRON_ORE).strength(2f).requiresCorrectToolForDrops(),UniformInt.of(3,6)));
     public static final RegistryObject<Block> DEEPSLATE_TUNGSTEN_ORE = BLOCKS.register("deepslate_tungsten_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_IRON_ORE).strength(2f).requiresCorrectToolForDrops(),UniformInt.of(3,6)));
+
     //Netherrack
     public static final RegistryObject<Block> NETHERRACK_ARSENIC_ORE = BLOCKS.register("netherrack_arsenic_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.NETHER_GOLD_ORE).strength(2f).requiresCorrectToolForDrops(),UniformInt.of(3,6)));
