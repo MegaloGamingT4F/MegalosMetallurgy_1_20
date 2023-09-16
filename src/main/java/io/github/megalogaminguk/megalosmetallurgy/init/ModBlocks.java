@@ -141,19 +141,19 @@ public class ModBlocks {
                     .strength(1f).requiresCorrectToolForDrops(),UniformInt.of(3,7)));
 
     //Endstone
-    public static final RegistryObject<Block> END_LITHIUM_ORE = BLOCKS.register("end_stone_lithium_ore",
+    public static final RegistryObject<Block> END_STONE_LITHIUM_ORE = BLOCKS.register("end_stone_lithium_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.END_STONE).strength(2f).requiresCorrectToolForDrops(),UniformInt.of(3,6)));
-    public static final RegistryObject<Block> END_RUBIDIUM_ORE = BLOCKS.register("end_stone_rubidium_ore",
+    public static final RegistryObject<Block> END_STONE_RUBIDIUM_ORE = BLOCKS.register("end_stone_rubidium_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.END_STONE).strength(2f).requiresCorrectToolForDrops(),UniformInt.of(3,6)));
-    public static final RegistryObject<Block> END_SCANDIUM_ORE = BLOCKS.register("end_stone_scandium_ore",
+    public static final RegistryObject<Block> END_STONE_SCANDIUM_ORE = BLOCKS.register("end_stone_scandium_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.END_STONE).strength(2f).requiresCorrectToolForDrops(),UniformInt.of(3,6)));
-    public static final RegistryObject<Block> END_STRONTIUM_ORE = BLOCKS.register("end_stone_strontium_ore",
+    public static final RegistryObject<Block> END_STONE_STRONTIUM_ORE = BLOCKS.register("end_stone_strontium_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.END_STONE).strength(2f).requiresCorrectToolForDrops(),UniformInt.of(3,6)));
-    public static final RegistryObject<Block> END_TANTALUM_ORE = BLOCKS.register("end_stone_tantalum_ore",
+    public static final RegistryObject<Block> END_STONE_TANTALUM_ORE = BLOCKS.register("end_stone_tantalum_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.END_STONE).strength(2f).requiresCorrectToolForDrops(),UniformInt.of(3,6)));
-    public static final RegistryObject<Block> END_VANADIUM_ORE = BLOCKS.register("end_stone_vanadium_ore",
+    public static final RegistryObject<Block> END_STONE_VANADIUM_ORE = BLOCKS.register("end_stone_vanadium_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.END_STONE).strength(2f).requiresCorrectToolForDrops(),UniformInt.of(3,6)));
-    public static final RegistryObject<Block> END_YTTRIUM_ORE = BLOCKS.register("end_stone_yttrium_ore",
+    public static final RegistryObject<Block> END_STONE_YTTRIUM_ORE = BLOCKS.register("end_stone_yttrium_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.END_STONE).strength(2f).requiresCorrectToolForDrops(),UniformInt.of(3,6)));
 
     //Block
