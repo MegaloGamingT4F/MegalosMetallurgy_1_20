@@ -1,6 +1,7 @@
 package io.github.megalogaminguk.megalosmetallurgy.init;
 
 import io.github.megalogaminguk.megalosmetallurgy.MegalosMetallurgy;
+import io.github.megalogaminguk.megalosmetallurgy.init.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -22,35 +23,35 @@ public class ModBlocks {
 
     //Ore
     public static final RegistryObject<Block> ALUMINIUM_ORE = BLOCKS.register("aluminium_ore",
-            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.IRON_ORE).strength(2f).requiresCorrectToolForDrops(),UniformInt.of(3,6)));
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE).strength(2f).requiresCorrectToolForDrops(),UniformInt.of(3,6)));
     public static final RegistryObject<Block> CALCIUM_ORE = BLOCKS.register("calcium_ore",
-            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.IRON_ORE).strength(2f).requiresCorrectToolForDrops(),UniformInt.of(3,6)));
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE).strength(2f).requiresCorrectToolForDrops(),UniformInt.of(3,6)));
     public static final RegistryObject<Block> CINNABAR_ORE = BLOCKS.register("cinnabar_ore",
-            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.IRON_ORE).strength(2f).requiresCorrectToolForDrops(),UniformInt.of(3,6)));
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE).strength(2f).requiresCorrectToolForDrops(),UniformInt.of(3,6)));
     public static final RegistryObject<Block> LEAD_ORE = BLOCKS.register("lead_ore",
-            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.IRON_ORE).strength(2f).requiresCorrectToolForDrops(),UniformInt.of(3,6)));
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE).strength(2f).requiresCorrectToolForDrops(),UniformInt.of(3,6)));
     public static final RegistryObject<Block> MAGNESIUM_ORE = BLOCKS.register("magnesium_ore",
-            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.IRON_ORE).strength(2f).requiresCorrectToolForDrops(),UniformInt.of(3,6)));
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE).strength(2f).requiresCorrectToolForDrops(),UniformInt.of(3,6)));
     public static final RegistryObject<Block> NICKEL_ORE = BLOCKS.register("nickel_ore",
-            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.IRON_ORE).strength(2f).requiresCorrectToolForDrops(),UniformInt.of(3,6)));
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE).strength(2f).requiresCorrectToolForDrops(),UniformInt.of(3,6)));
     public static final RegistryObject<Block> OSMIUM_ORE = BLOCKS.register("osmium_ore",
-            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.IRON_ORE).strength(2f).requiresCorrectToolForDrops(),UniformInt.of(3,6)));
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE).strength(2f).requiresCorrectToolForDrops(),UniformInt.of(3,6)));
     public static final RegistryObject<Block> PLATINUM_ORE = BLOCKS.register("platinum_ore",
-            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.IRON_ORE).strength(2f).requiresCorrectToolForDrops(),UniformInt.of(3,6)));
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE).strength(2f).requiresCorrectToolForDrops(),UniformInt.of(3,6)));
     public static final RegistryObject<Block> SILICON_ORE = BLOCKS.register("silicon_ore",
-            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.IRON_ORE).strength(2f).requiresCorrectToolForDrops(),UniformInt.of(3,6)));
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE).strength(2f).requiresCorrectToolForDrops(),UniformInt.of(3,6)));
     public static final RegistryObject<Block> SILVER_ORE = BLOCKS.register("silver_ore",
-            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.IRON_ORE).strength(2f).requiresCorrectToolForDrops(),UniformInt.of(3,6)));
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE).strength(2f).requiresCorrectToolForDrops(),UniformInt.of(3,6)));
     public static final RegistryObject<Block> SODIUM_ORE = BLOCKS.register("sodium_ore",
-            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.IRON_ORE).strength(2f).requiresCorrectToolForDrops(),UniformInt.of(3,6)));
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE).strength(2f).requiresCorrectToolForDrops(),UniformInt.of(3,6)));
     public static final RegistryObject<Block> TIN_ORE = BLOCKS.register("tin_ore",
-            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.IRON_ORE).strength(2f).requiresCorrectToolForDrops(),UniformInt.of(3,6)));
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE).strength(2f).requiresCorrectToolForDrops(),UniformInt.of(3,6)));
     public static final RegistryObject<Block> TITANIUM_ORE = BLOCKS.register("titanium_ore",
-            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.IRON_ORE).strength(2f).requiresCorrectToolForDrops(),UniformInt.of(3,6)));
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE).strength(2f).requiresCorrectToolForDrops(),UniformInt.of(3,6)));
     public static final RegistryObject<Block> ZINC_ORE = BLOCKS.register("zinc_ore",
-            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.IRON_ORE).strength(2f).requiresCorrectToolForDrops(),UniformInt.of(3,6)));
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE).strength(2f).requiresCorrectToolForDrops(),UniformInt.of(3,6)));
     public static final RegistryObject<Block> ZIRCONIUM_ORE = BLOCKS.register("zirconium_ore",
-            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.IRON_ORE).strength(2f).requiresCorrectToolForDrops(),UniformInt.of(3,6)));
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE).strength(2f).requiresCorrectToolForDrops(),UniformInt.of(3,6)));
 
     //Deepslate
     public static final RegistryObject<Block> DEEPSLATE_ANTIMONY_ORE = BLOCKS.register("deepslate_antimony_ore",
@@ -140,7 +141,7 @@ public class ModBlocks {
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.NETHERRACK)
                     .strength(1f).requiresCorrectToolForDrops(),UniformInt.of(3,7)));
 
-    //Endstone
+    //End_Stone
     public static final RegistryObject<Block> END_STONE_LITHIUM_ORE = BLOCKS.register("end_stone_lithium_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.END_STONE).strength(2f).requiresCorrectToolForDrops(),UniformInt.of(3,6)));
     public static final RegistryObject<Block> END_STONE_RUBIDIUM_ORE = BLOCKS.register("end_stone_rubidium_ore",

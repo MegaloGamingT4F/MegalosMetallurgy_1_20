@@ -1,4 +1,5 @@
 {
+  "replace": false,
   "values": [
     "megalosmetallurgy:end_stone_lithium_ore",
     "megalosmetallurgy:end_stone_rubidium_ore",
