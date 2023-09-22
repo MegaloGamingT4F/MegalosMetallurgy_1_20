@@ -444,6 +444,8 @@ public static final RegistryObject<Item> RAW_ALUMINIUM = ITEMS.register("raw_alu
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ALUMINIUM_AXEHEAD = ITEMS.register("aluminium_axehead",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ALUMINIUM_GUARD = ITEMS.register("aluminium_guard",
+            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ALUMINIUM_SHOVELHEAD = ITEMS.register("aluminium_shovelhead",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ALUMINIUM_PICK = ITEMS.register("aluminium_pick",
@@ -458,6 +460,8 @@ public static final RegistryObject<Item> RAW_ALUMINIUM = ITEMS.register("raw_alu
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> SILVER_AXEHEAD = ITEMS.register("silver_axehead",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SILVER_GUARD = ITEMS.register("silver_guard",
+            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> SILVER_SHOVELHEAD = ITEMS.register("silver_shovelhead",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> SILVER_PICK = ITEMS.register("silver_pick",
@@ -471,6 +475,8 @@ public static final RegistryObject<Item> RAW_ALUMINIUM = ITEMS.register("raw_alu
     public static final RegistryObject<Item> TITANIUM_BLADE = ITEMS.register("titanium_blade",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> TITANIUM_AXEHEAD = ITEMS.register("titanium_axehead",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> TITANIUM_GUARD = ITEMS.register("titanium_guard",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> TITANIUM_SHOVELHEAD = ITEMS.register("titanium_shovelhead",
             () -> new Item(new Item.Properties()));

@@ -383,7 +383,6 @@ public class ModTabs {
                         output.accept(ModItems.ALUMINIUM_CHESTPLATE.get());
                         output.accept(ModItems.ALUMINIUM_LEGGINGS.get());
                         output.accept(ModItems.ALUMINIUM_BOOTS.get());
-
                         output.accept(ModItems.SILVER_HELMET.get());
                         output.accept(ModItems.SILVER_CHESTPLATE.get());
                         output.accept(ModItems.SILVER_LEGGINGS.get());
@@ -416,6 +415,7 @@ public class ModTabs {
                         //Parts
                         output.accept(ModItems.ALUMINIUM_BLADE.get());
                         output.accept(ModItems.ALUMINIUM_AXEHEAD.get());
+                        output.accept(ModItems.ALUMINIUM_GUARD.get());
                         output.accept(ModItems.ALUMINIUM_SHOVELHEAD.get());
                         output.accept(ModItems.ALUMINIUM_PICK.get());
                         output.accept(ModItems.ALUMINIUM_POMMEL.get());
@@ -424,6 +424,7 @@ public class ModTabs {
 
                         output.accept(ModItems.SILVER_BLADE.get());
                         output.accept(ModItems.SILVER_AXEHEAD.get());
+                        output.accept(ModItems.SILVER_GUARD.get());
                         output.accept(ModItems.SILVER_SHOVELHEAD.get());
                         output.accept(ModItems.SILVER_PICK.get());
                         output.accept(ModItems.SILVER_POMMEL.get());
@@ -432,6 +433,7 @@ public class ModTabs {
 
                         output.accept(ModItems.TITANIUM_BLADE.get());
                         output.accept(ModItems.TITANIUM_AXEHEAD.get());
+                        output.accept(ModItems.TITANIUM_GUARD.get());
                         output.accept(ModItems.TITANIUM_SHOVELHEAD.get());
                         output.accept(ModItems.TITANIUM_PICK.get());
                         output.accept(ModItems.TITANIUM_POMMEL.get());

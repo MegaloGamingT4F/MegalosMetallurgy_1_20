@@ -2,13 +2,15 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "bonus_rolls": 0.0,
+      "rolls": 1,
+      "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:alternatives",
           "children": [
             {
               "type": "minecraft:item",
+              "name": "megalosmetallurgy:zinc_ore",
               "conditions": [
                 {
                   "condition": "minecraft:match_tool",
@@ -23,37 +25,25 @@
                     ]
                   }
                 }
-              ],
-              "name": "megalosmetallurgy:zinc_ore"
+              ]
             },
             {
               "type": "minecraft:item",
+              "name": "megalosmetallurgy:raw_zinc",
               "functions": [
                 {
-                  "add": false,
-                  "count": {
-                    "type": "minecraft:uniform",
-                    "max": 5.0,
-                    "min": 2.0
-                  },
-                  "function": "minecraft:set_count"
-                },
-                {
+                  "function": "minecraft:apply_bonus",
                   "enchantment": "minecraft:fortune",
-                  "formula": "minecraft:ore_drops",
-                  "function": "minecraft:apply_bonus"
+                  "formula": "minecraft:ore_drops"
                 },
                 {
                   "function": "minecraft:explosion_decay"
                 }
-              ],
-              "name": "megalosmetallurgy:raw_zinc"
+              ]
             }
           ]
         }
-      ],
-      "rolls": 1.0
+      ]
     }
-  ],
-  "random_sequence": "megalosmetallurgy:blocks/zinc_ore"
+  ]
 }

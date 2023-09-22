@@ -1,7 +1,6 @@
 package io.github.megalogaminguk.megalosmetallurgy.init;
 
 import io.github.megalogaminguk.megalosmetallurgy.MegalosMetallurgy;
-import io.github.megalogaminguk.megalosmetallurgy.init.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.util.valueproviders.UniformInt;
