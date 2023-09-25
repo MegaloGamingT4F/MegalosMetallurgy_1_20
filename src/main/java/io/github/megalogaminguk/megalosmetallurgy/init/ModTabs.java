@@ -14,7 +14,7 @@ public class ModTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MegalosMetallurgy.MOD_ID);
 
     public static final RegistryObject<CreativeModeTab> METALLURGY_TAB = CREATIVE_MODE_TABS.register("metallurgy_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.ALUMINIUM_BLOCK.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.ALUMINIUM_ORE.get()))
                     .title(Component.translatable("itemGroup.metallurgy_tab"))
                     .displayItems((displayParams, output) -> {
                         output.accept(ModBlocks.ALUMINIUM_ORE.get());
@@ -372,13 +372,7 @@ public class ModTabs {
                         output.accept(ModItems.RAW_YTTRIUM.get());
                         output.accept(ModItems.RAW_ZINC.get());
                         output.accept(ModItems.RAW_ZIRCONIUM.get());
-                        })
-                    .build());
 
-    public static final RegistryObject<CreativeModeTab> HOPLOLOGY_TAB = CREATIVE_MODE_TABS.register("hoplology_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.ALUMINIUM_SWORD.get()))
-                    .title(Component.translatable("itemGroup.hoplology_tab"))
-                    .displayItems((displayParams, output) -> {
                         output.accept(ModItems.ALUMINIUM_HELMET.get());
                         output.accept(ModItems.ALUMINIUM_CHESTPLATE.get());
                         output.accept(ModItems.ALUMINIUM_LEGGINGS.get());
