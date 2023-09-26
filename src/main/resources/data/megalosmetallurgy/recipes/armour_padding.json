@@ -2,9 +2,9 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "FLF",
     "LFL",
-    "FLF"
+    "FLF",
+    "LFL"
   ],
   "key": {
     "F": {
